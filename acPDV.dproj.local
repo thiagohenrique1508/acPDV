@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/10/25 12:37:38.761,=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/10/25 12:39:10.427,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\PDV.dproj=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/10/25 12:40:44.689,C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\acPDV.dproj=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\PDV.dproj</Transaction>
+    <Transaction>2023/10/25 12:41:29.797,C:\Estudos\Clube dos Programadores Delphi\PDV\view\acPDV.view.Principal.dfm=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/10/25 12:41:29.797,C:\Estudos\Clube dos Programadores Delphi\PDV\view\acPDV.view.Principal.pas=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/10/25 12:41:35.830,C:\Estudos\Clube dos Programadores Delphi\PDV\acPDV.dproj=C:\Users\thiago.silva\Documents\Embarcadero\Studio\Projects\acPDV.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
