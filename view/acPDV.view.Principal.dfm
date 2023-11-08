@@ -1,29 +1,31 @@
 object frmPrincipal: TfrmPrincipal
-  Left = 0
-  Top = 0
+  Left = 449
+  Top = 145
   Caption = 'Academia do C'#243'digo - PDV'
-  ClientHeight = 730
-  ClientWidth = 1124
+  ClientHeight = 613
+  ClientWidth = 765
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  Position = poDesigned
   TextHeight = 15
   object pnlContainer: TPanel
     Left = 0
     Top = 0
-    Width = 1124
-    Height = 730
+    Width = 765
+    Height = 613
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 0
-    ExplicitTop = -8
+    ExplicitWidth = 1120
+    ExplicitHeight = 729
     object pnlTitle: TPanel
       Left = 0
       Top = 0
-      Width = 1124
+      Width = 765
       Height = 60
       Align = alTop
       BevelOuter = bvNone
@@ -40,73 +42,299 @@ object frmPrincipal: TfrmPrincipal
       ParentFont = False
       TabOrder = 0
       StyleElements = []
+      ExplicitWidth = 1120
     end
     object pnlBotoes: TPanel
       Left = 0
-      Top = 670
-      Width = 1124
-      Height = 60
+      Top = 539
+      Width = 765
+      Height = 74
       Align = alBottom
       BevelOuter = bvNone
       Padding.Left = 5
       Padding.Top = 10
       Padding.Right = 5
       Padding.Bottom = 10
+      ParentBackground = False
       TabOrder = 1
-      ExplicitTop = 675
+      ExplicitTop = 656
+      ExplicitWidth = 1124
       object pnlCancelarOP: TPanel
+        AlignWithMargins = True
         Left = 5
         Top = 10
-        Width = 107
-        Height = 40
+        Width = 116
+        Height = 54
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Bottom = 0
         Align = alLeft
         BevelOuter = bvNone
-        Caption = 'Cancelar'
-        Color = 15000804
         ParentBackground = False
         TabOrder = 0
         StyleElements = []
-        ExplicitLeft = 6
-        ExplicitTop = 11
-        ExplicitHeight = 38
+        object Shape1: TShape
+          Left = 0
+          Top = 0
+          Width = 116
+          Height = 54
+          Align = alClient
+          Brush.Color = 14737632
+          Pen.Style = psClear
+          Shape = stRoundRect
+          ExplicitLeft = 24
+          ExplicitTop = -4
+          ExplicitWidth = 65
+          ExplicitHeight = 65
+        end
+        object SpeedButton1: TSpeedButton
+          Left = 0
+          Top = 0
+          Width = 116
+          Height = 54
+          Align = alClient
+          ExplicitTop = -4
+        end
+      end
+      object Panel1: TPanel
+        AlignWithMargins = True
+        Left = 124
+        Top = 10
+        Width = 116
+        Height = 54
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Bottom = 0
+        Align = alLeft
+        BevelOuter = bvNone
+        ParentBackground = False
+        TabOrder = 1
+        StyleElements = []
+        ExplicitLeft = 5
+        object Shape2: TShape
+          Left = 0
+          Top = 0
+          Width = 116
+          Height = 54
+          Align = alClient
+          Brush.Color = 14737632
+          Pen.Style = psClear
+          Shape = stRoundRect
+          ExplicitLeft = 24
+          ExplicitTop = -4
+          ExplicitWidth = 65
+          ExplicitHeight = 65
+        end
+        object SpeedButton2: TSpeedButton
+          Left = 0
+          Top = 0
+          Width = 116
+          Height = 54
+          Align = alClient
+          ExplicitLeft = 24
+          ExplicitTop = 8
+          ExplicitWidth = 23
+          ExplicitHeight = 22
+        end
+      end
+      object Panel2: TPanel
+        AlignWithMargins = True
+        Left = 243
+        Top = 10
+        Width = 116
+        Height = 54
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Bottom = 0
+        Align = alLeft
+        BevelOuter = bvNone
+        ParentBackground = False
+        TabOrder = 2
+        StyleElements = []
+        ExplicitLeft = 5
+        object Shape3: TShape
+          Left = 0
+          Top = 0
+          Width = 116
+          Height = 54
+          Align = alClient
+          Brush.Color = 14737632
+          Pen.Style = psClear
+          Shape = stRoundRect
+          ExplicitLeft = 24
+          ExplicitTop = -4
+          ExplicitWidth = 65
+          ExplicitHeight = 65
+        end
+        object SpeedButton3: TSpeedButton
+          Left = 0
+          Top = 0
+          Width = 116
+          Height = 54
+          Align = alClient
+          ExplicitLeft = 24
+          ExplicitTop = 8
+          ExplicitWidth = 23
+          ExplicitHeight = 22
+        end
+      end
+      object Panel3: TPanel
+        AlignWithMargins = True
+        Left = 362
+        Top = 10
+        Width = 116
+        Height = 54
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Bottom = 0
+        Align = alLeft
+        BevelOuter = bvNone
+        ParentBackground = False
+        TabOrder = 3
+        StyleElements = []
+        ExplicitLeft = 5
+        object Shape4: TShape
+          Left = 0
+          Top = 0
+          Width = 116
+          Height = 54
+          Align = alClient
+          Brush.Color = 14737632
+          Pen.Style = psClear
+          Shape = stRoundRect
+          ExplicitLeft = 24
+          ExplicitTop = -4
+          ExplicitWidth = 65
+          ExplicitHeight = 65
+        end
+        object SpeedButton4: TSpeedButton
+          Left = 0
+          Top = 0
+          Width = 116
+          Height = 54
+          Align = alClient
+          ExplicitLeft = 24
+          ExplicitTop = 8
+          ExplicitWidth = 23
+          ExplicitHeight = 22
+        end
+      end
+      object Panel4: TPanel
+        AlignWithMargins = True
+        Left = 481
+        Top = 10
+        Width = 116
+        Height = 54
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Bottom = 0
+        Align = alLeft
+        BevelOuter = bvNone
+        ParentBackground = False
+        TabOrder = 4
+        StyleElements = []
+        ExplicitLeft = 5
+        object Shape5: TShape
+          Left = 0
+          Top = 0
+          Width = 116
+          Height = 54
+          Align = alClient
+          Brush.Color = 14737632
+          Pen.Style = psClear
+          Shape = stRoundRect
+          ExplicitLeft = 24
+          ExplicitTop = -4
+          ExplicitWidth = 65
+          ExplicitHeight = 65
+        end
+        object SpeedButton5: TSpeedButton
+          Left = 0
+          Top = 0
+          Width = 116
+          Height = 54
+          Align = alClient
+          ExplicitLeft = 24
+          ExplicitTop = 8
+          ExplicitWidth = 23
+          ExplicitHeight = 22
+        end
+      end
+      object Panel5: TPanel
+        AlignWithMargins = True
+        Left = 600
+        Top = 10
+        Width = 116
+        Height = 54
+        Margins.Left = 0
+        Margins.Top = 0
+        Margins.Bottom = 0
+        Align = alLeft
+        BevelOuter = bvNone
+        ParentBackground = False
+        TabOrder = 5
+        StyleElements = []
+        ExplicitLeft = 5
+        object Shape6: TShape
+          Left = 0
+          Top = 0
+          Width = 116
+          Height = 54
+          Align = alClient
+          Brush.Color = 14737632
+          Pen.Style = psClear
+          Shape = stRoundRect
+          ExplicitLeft = 24
+          ExplicitTop = -4
+          ExplicitWidth = 65
+          ExplicitHeight = 65
+        end
+        object SpeedButton6: TSpeedButton
+          Left = 0
+          Top = 0
+          Width = 116
+          Height = 54
+          Align = alClient
+          ExplicitLeft = 24
+          ExplicitTop = 8
+          ExplicitWidth = 23
+          ExplicitHeight = 22
+        end
       end
     end
     object pnlMain: TPanel
       Left = 0
       Top = 60
-      Width = 1124
-      Height = 610
+      Width = 765
+      Height = 479
       Align = alClient
       BevelOuter = bvNone
       TabOrder = 2
-      ExplicitLeft = 424
-      ExplicitTop = 312
-      ExplicitWidth = 185
-      ExplicitHeight = 41
+      ExplicitWidth = 1120
+      ExplicitHeight = 609
       object pnlOperacoes: TPanel
-        Left = 724
+        Left = 365
         Top = 0
         Width = 400
-        Height = 610
+        Height = 479
         Align = alRight
         BevelOuter = bvNone
         TabOrder = 0
-        ExplicitLeft = 938
-        ExplicitTop = 1
-        ExplicitHeight = 608
+        ExplicitLeft = 720
+        ExplicitHeight = 609
       end
       object pnlGrid: TPanel
         Left = 0
         Top = 0
-        Width = 724
-        Height = 610
+        Width = 365
+        Height = 479
         Align = alClient
         BevelOuter = bvNone
         TabOrder = 1
-        ExplicitLeft = 472
-        ExplicitTop = 288
-        ExplicitWidth = 185
-        ExplicitHeight = 41
+        ExplicitLeft = -6
+        ExplicitTop = 4
+        ExplicitWidth = 724
+        ExplicitHeight = 596
       end
     end
   end
